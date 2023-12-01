@@ -71,124 +71,127 @@ let estudiantes = [{
         nombre: " ALEJANDRO GUILLEN",
         id: 0,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.PNG',
+        lenguajeFavorito: './img/js.PNG'
     },
     {
         nombre: "AMELSI LISETTE ABREU SAVION",
         id: 1,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/mujer.png',
-        lenguajeFavorito: '../img/java.png'
+        foto: './img/mujer.png',
+        lenguajeFavorito: './img/java.png'
     },
     {
         nombre: "ANDREA CELESTE SEGURA NINA",
         id: 2,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/mujer.png',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/mujer.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "ANTHONY JULIAN BEATO DE LOS ANGELES",
         id: 3,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/python.jpg'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/python.jpg'
     },
     {
         nombre: "EDWIN ESTEBAN HERNANDEZ HERNANDEZ",
         id: 4,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/c++.jpg'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/c++.jpg'
     },
     {
         nombre: "ENMANUEL DE JESUS FELIZ",
         id: 5,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/c++.jpg'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/c++.jpg'
     },
     {
         nombre: "ISMAEL BENJAMIN",
         id: 6,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/java.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/java.png'
     },
     {
         nombre: "JEZEL ERISLANDER PUJOLS BATISTA",
         id: 7,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/python.jpg'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/python.jpg'
     },
     {
         nombre: "JOHAN ANTONIO LARA GUZMAN",
         id: 8,
         informacion: 'Soy Ingeniero en Sistema y Computación, me gusta la tecnologia principalmente la programación web en la parte del Front-end, unos de las tecnologia que domino son: HTML5, CSS3, Bootstrap5, JavaScript, y React.',
-        foto: '/img/johan.jpg',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/johan.jpg',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "JONATHAN JOEL DIAZ FRIAS",
         id: 9,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "JOSE ALEJANDRO PARRA MENDEZ",
         id: 10,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "JOSÉ RICARDO GUTIERREZ MARTE",
         id: 11,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "LUIS JOEL CRISPIN MUNOZ",
         id: 12,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "SAMUEL STIVEN VASQUEZ",
         id: 13,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "SHELDIN MILLORD",
         id: 14,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "WALTYN BEANEL SANTO PERALTA",
         id: 15,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "YONATHAN RAMIREZ",
         id: 16,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
     {
         nombre: "JOSMER NICOLAS PERALTA MARTINEZ",
         id: 17,
         informacion: 'Soy desarrollador de software, me gusta mucho la programacion por ende estoy cursando el curso de desarrollo de software en JavaScript en ITLA S.D.N, he trabajado en Amazon y en Google como desarrollador front-end.',
-        foto: '/img/profile.png',
-        lenguajeFavorito: '../img/js.png'
+        foto: './img/profile.png',
+        lenguajeFavorito: './img/js.png'
     },
 
 ]

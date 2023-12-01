@@ -1,6 +1,6 @@
 @font-face {
     font-family: letra;
-    src: url('/letra/Noto_Serif_Old_Uyghur/NotoSerifOldUyghur-Regular.ttf');
+    src: url('../letra/Noto_Serif_Old_Uyghur/NotoSerifOldUyghur-Regular.ttf');
 }
 
 :root {
@@ -208,7 +208,7 @@ span {
 
 .container_estudiante {
     height: 100vh;
-    background-image: url('/img/teclado.jpeg');
+    background-image: url('../img/teclado.jpeg');
     background-attachment: fixed;
     background-position: center;
     object-fit: cover;
