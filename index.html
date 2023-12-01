@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="/estilo/estilo.css">
+<meta name="description" content="Este es mi salon de clases de Desarrollo de Software en JavaScript en la fecha octubre - diciembre 2023">
+<meta name="author" content="Johan Antonio Lara Guzman">
+<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+<title>Salon de clases</title>
+</head>
+
+<body class="">
+
+    <div class="seccion1">
+        <h3 id="pagina_principal"></h3>
+        <header>
+            <div class="container-fluid contenedor_nav">
+                <nav class="container">
+                    <div class="nav_barra">
+                        <div class="nav_barra_logo">
+                            <img class="logo" src="/img/logo.png" alt="Johan">
+                            <a class="btn_principal" href="#pagina_principal"></a>
+                        </div>
+                        <div class="btn_menu">
+                            <a class="seccion-estudiante" href="#estudiantes">ESTUDIANTES</a>
+                            <a class="seccionInfo" href="#informacion">INFORMACION</a>
+                            <i class="bi bi-list btn_menu_hamburguesa"></i>
+                        </div>
+                        <div class="menu_despliegue">
+                            <a class="btn_hamburguesa2 seccion-estudiante" href="#estudiantes">ESTUDIANTES</a>
+                            <a class="btn_hamburguesa2 seccionInfo" href="#informacion">INFORMACION</a>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </div>
+        </header>
+        <div class="contenedor">
+            <div class="contenedor_carousel">
+
+                <div class="contenedor_carousel_img">
+                    <img src="/img/4.jpg" alt="salon">
+                    <img src="/img/5.jpg" alt="salon">
+                    <img src="/img/salonDeClases3.jpg" alt="salon">
+                </div>
+            </div>
+            <ul class="puntos">
+                <li class="punto active"></li>
+                <li class="punto"></li>
+                <li class="punto"></li>
+            </ul>
+            <div class="container">
+                <div class="titulo">
+                    <h1> <span>CURSO</span> DE DESARROLLO WEB EN JAVASCRIPT<br> (HTML/CSS)</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <i class="bi bi-arrow-down-square irAbajo"></i>
+
+        <section class="container-fluid container_estudiante">
+
+            <div class="container container_estudiante_main">
+
+                <div class="container contenedor-estudiantes-seccion">
+                    <h2 id="estudiantes">COMPAÑEROS</h2>
+                    <div class="input-group input_busqueda_container">
+                        <div class="input-group-text lupa"><i class="bi bi-search"></i></div>
+                        <input class="form-control inp_busqueda" type="search" placeholder="Buscar Compañero" spellcheck="false" autocapitalize="words">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container contenedor_lista_estudiantes">
+            </div>
+
+            <div class="container contenedor_esInfo">
+                <strong></strong>
+                <div class="row contenedor_esInfo2">
+                    <div class="col-lg-5 contenedorImg">
+                        <img class="profile_estudiante" src="" alt="estudiante">
+                        <p class="nombre_estudiante">Nombre</p>
+                        <div class="lenguaje">
+                            <p class="lenguaje_letra">Lenguaje favorito: </p>
+                            <img class="lenguaje_estudiante" src="/img/js.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-7 info_estidiante_contenedor">
+                        <p class="info_estudiante">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste hic praesentium maxime inventore rem nemo sequi fuga laboriosam unde reiciendis. Est suscipit inventore vero incidunt veritatis porro quis odio sint.
+                        </p>
+                        <button class="btn cerrar_inf">OK</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!--seccion 2-->
+    <div class="seccion2">
+        <header>
+            <div class="container-fluid contenedor_nav contenedor_nav_info">
+                <nav class="container">
+                    <div class="nav_barra">
+                        <div class="nav_barra_logo">
+                            <img class="logo" src="/img/logo.png" alt="Johan">
+                        </div>
+                        <div class="btn_menu">
+                            <a class="seccion-estudiante" href="#estudiantes">ESTUDIANTES</a>
+                            <a class="seccionInfo" href="#informacion">INFORMACION</a>
+                            <i class="bi bi-list btn_menu_hamburguesa"></i>
+                        </div>
+                        <div class="menu_despliegue menu2">
+                            <a class="btn_hamburguesa2 seccion-estudiante" href="#estudiantes">ESTUDIANTES</a>
+                            <a class="btn_hamburguesa2 seccionInfo" href="#informacion">INFORMACION</a>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </div>
+        </header>
+        <div class="container-fluid contenedor_informacion">
+            <div class="container">
+                <h2 class="historia" id="informacion">Historia</h2>
+                <p class="historia-itla">
+                    ITLA quedó formalmente constituido como una institución pública mediante el Decreto No. 422-00, de fecha 15 de agosto del año 2000, emitido por el entonces presidente de la República Dr. Leonel Fernández, aunque la inauguración se llevó a cabo el 13 deagosto
+                    de ese año, considerándose esa la fecha de aniversario de la institución. En marzo del año 2001, el presidente de la República Hipólito Mejía, termina la obra y da inicio de las operaciones del ITLA.<br><br> Durante
+                    esa gestión (2000-2004), se concluye la construcción y el equipamiento de los cuatro edificios que alojan las aulas y laboratorios de las áreas de Redes de Información, Software, Multimedia y Mecatrónica. <br><br>En 2004, mediante
+                    la gestión de donación por parte del gobierno de Taiwán, se inaugura el centro de Mecatrónica más moderno del país, considerado como la cuna de la manufactura moderna en la República Dominicana, consolidando al ITLA como el más importante
+                    instituto de educación tecnológicade la región. <br><br>Asimismo, en esta gestión se impulsaron los primeros programas de capacitación de ciclo corto alineados con certificaciones internacionales de la industria tecnológica. El 18
+                    de julio del 2006, el ITLA mediante resolución 05-2006 emitida por el Ministerio de Educación Superior, Ciencia y Tecnología (MESCyT), se convierte en una Institución Técnica de Educación Superior, iniciando con los primeros tecnólogos
+                    en Desarrollo de Software, Redes de Información, Mecatrónica, Manufactura Automatizada y Multimedia.<br><br> En los años posteriores, esta oferta formativa tuvo un crecimiento acelerado, acorde a los avances tecnológicos y dando respuesta
+                    a las necesidades de la industria en materia de formación del talento humano, lo que aumentó de cinco a quince, las carreras del nivel técnico superior que ofrece el instituto.<br><br> Desde el año 2021, con la gestión del presidente
+                    Luis Abinader, existe un enfoque marcado hacia la expansión del instituto a otras regiones del país, para llevar la educación técnica superior y continuada al alcance de todos los ciudadanos, contribuyendo a disminuir la brecha digital
+                    en la República Dominicana.<br><br> Producto de esta expansión, adicional a la sede central en La Caleta y la extensión de Santiago de los Caballeros, el ITLA tiene presencia actualmente en San Pedro de Macorís, Santo Domingo Este
+                    (Los Tres Ojos), Santo Domingo Norte (Villa Mella) y en Bonao, provincia Monseñor Nouel, ofreciendo más oportunidades a la juventud dominicana a través de la educación tecnológica.<br><br> Con la actual gestión, surge la creación del
+                    Innovation Solution Factory, un proyecto de carácter tecnológico e innovador donde se trabaja en la transformación digital de las instituciones gubernamentales y del sector privado, de esta forma dando un salto cualitativo y cuantitativo
+                    a la industria 4.0. La institución está siendo guiada sobre los pilares de la innovación y el desarrollo, para colocarla como la principal academia tecnológica del país.
+                </p>
+            </div>
+            <div class="infoDeClase">
+                <h3><i class="bi bi-journal-text"></i>CONTENIDO DE CLASE</h3>
+                <div class="infoDeClase2 container">
+                    <div class="row">
+                        <div class="col-md-3 Contenido">
+                            <div class="container"><img src="/img/html5.png" alt="html5"></div>
+                            <p>Es un estándar que sirve para definir la estructura, el diseño y el contenido de una página web.</p>
+                        </div>
+                        <div class="col-md-3 Contenido">
+                            <div class="container"><img src="/img/CSS3.png" alt="css3"></div>
+                            <p>Es un tipo de lenguaje que permite definir y crear la presentación visual de un documento ya estructurado y escrito en un lenguaje de marcado como puede ser HTML.</p>
+                        </div>
+                        <div class="col-md-3 Contenido">
+                            <div class="container"><img src="/img/JavaScriptContenido.png" alt="JS"></div>
+                            <p>Es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="ubicacion">UBICACION</h2>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.6018102595954!2d-69.90414402534732!3d18.54688776837091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8fe5a84b3e8b%3A0x222c57650e5b6f2a!2sCentro%20de%20Formaci%C3%B3n%20Mam%C3%A1%20Tingo%20UASD%20ITLA!5e0!3m2!1ses!2sdo!4v1700860807705!5m2!1ses!2sdo"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Proyecto final de Desarrollo de Software en JavaScript (HTML / CSS)</p>
+
+        <p><span class="footer_strong">INFO:</span> Este es una pagina del aula cursado en Octubre-Diciembre 2023 ITLA S.D.N</p>
+    </footer>
+
+
+
+
+
+    <!--Condigo JS-->
+    <script src="/javaScript/salonDeClases.js"></script>
+</body>
+
+</html>
